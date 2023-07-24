@@ -1,16 +1,18 @@
-<h1>Active Directory Home Lab</h1>
+<h1>Applying Filters to SQL Queries</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
-
-<h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+<h2>Project Description</h2>
+My organization is working to make their system more secure. It is my job to ensure the system is safe, investigate all potential security issues, and update employee computers as needed. The following steps provide examples of how I used SQL with filters to perform security-related tasks.
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Retrieve after hours failed login attempts
+</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+<b>There was a potential security incident that occurred after business hours (after 18:00). All after hours login attempts that failed need to be investigated.
+
+The following code demonstrates how I created a SQL query to filter for failed login attempts that occurred after business hours.
+</b> 
+<b>     </b>
 
 <h2>Environments Used </h2>
 
@@ -20,11 +22,11 @@ Project consists of a simple PowerShell script that walks the user through "zero
 
 <p align="center">
 Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://drive.google.com/file/d/17omiwFeV7N0XItxR_ikwLTe57VufakWv/view?usp=drive_link"/>
 <br />
 <br />
 Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://drive.google.com/file/d/17omiwFeV7N0XItxR_ikwLTe57VufakWv/view?usp=drive_link" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Enter the number of passes: <br/>
